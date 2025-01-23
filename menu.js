@@ -18,7 +18,7 @@ resources.map((cat, index) => {
 resources.map(resource => informasjonHTML += `
             <ul id="menu">
                 <li>
-                    <p id="menu" onclick="showContent('${resource.category}')" >${resource.category}</p>
+                    <p id="menu" onclick="content('${resource.category}')" >${resource.category}</p>
                 </li>
             </ul>
 
