@@ -1,20 +1,6 @@
 
 let informasjonHTML = ""
 
-
-/*
-resources.map((cat, index) => {
-    informasjonHTML += `<button onclick="content('${cat.category}')">${cat.category}</button>`})
-
-    
-*/
-   /* resources.map(resource => {
-        informasjonHTML += `<button id="button" onclick="updatecontent('${resource.category}')">${resource.category}</button>`;
-      });
-      */
-
-
-
 resources.map(resource => informasjonHTML += `
             <ul id="menu">
                 <li>
